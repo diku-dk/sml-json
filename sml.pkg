@@ -1,0 +1,5 @@
+package github.com/diku-dk/sml-json
+
+require {
+  github.com/diku-dk/sml-setmap 0.1.0 #d6928504c924388de753c12a8d4f2fda32cecddb
+}
