@@ -1,4 +1,4 @@
-# sml-json [![Build Status](https://travis-ci.org/diku-dk/sml-json.svg?branch=master)](https://travis-ci.org/diku-dk/sml-json)
+# sml-json [![CI](https://github.com/diku-dk/sml-json/workflows/CI/badge.svg)](https://github.com/diku-dk/sml-json/actions)
 
 Standard ML package for JSON parsing and printing.
 
