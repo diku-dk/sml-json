@@ -90,8 +90,7 @@ structure Json :> JSON = struct
             if List.all Char.isHexDigit (String.explode xxxx) then
               cs1'
             else
-              ( print ("damn: " ^ xxxx ^ "\n")
-              ; die "invalid \\uXXXX escape inside string"))
+              die "invalid \\uXXXX escape inside string")
     | SOME (c,cs1) =>
         if Char.contains "bfnrt\"\\" c then
           cs1
