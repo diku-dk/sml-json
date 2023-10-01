@@ -1,4 +1,11 @@
-(** JSON library *)
+(** JSON library.
+
+This library provides operations for parsing and constructing JSON
+values (represented by strings). JSON values are represented in SML by
+the type t, which may include key-value object maps that are
+represented by the type obj.
+
+*)
 
 signature JSON = sig
   type obj                      (* object map *)
@@ -76,6 +83,6 @@ array in s. This function avoids building the intermediate list
 representation of the JSON array value. Raises Fail(msg) in case s
 does not contain a JSON array.
 
-Copyright 2015-2020, Martin Elsman, MIT-license.
-
 *)
+
+(* Copyright 2015-2020, Martin Elsman, MIT-license. *)
